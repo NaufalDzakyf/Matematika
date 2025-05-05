@@ -1,0 +1,28 @@
+# Folder/folder lokal XAMPP yang tidak perlu diunggah
+*.log
+*.sql
+*.sqlite
+*.env
+.env.*
+.idea/
+.vscode/
+vendor/
+node_modules/
+
+# File sementara atau cache
+.DS_Store
+Thumbs.db
+*.bak
+*.tmp
+
+# Konfigurasi server lokal
+.htaccess
+config.php
+database.php
+
+# Composer dan PHP config
+composer.lock
+phpunit.xml
+
+# Upload dari form misalnya
+uploads/
